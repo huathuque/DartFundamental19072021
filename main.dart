@@ -78,5 +78,33 @@ void main() {
   // PI = 3.142;
   // print(PI);
 
+  // Toán tử:
+  // var a = 5;
+  // var b = a++;
+  // print(b);
+  // print(a);
 
+  // Trường hợp nếu a bằng null, có cách viết thay cho if
+  // var a;
+  // a ??= 10;
+  //
+  // print(a);
+
+  // Check type:
+  // var a = 123;
+  //
+  // if (a is String) {
+  //   print("a có kiểu dữ liệu là integer");
+  // }
+
+  var person1 = Person()
+          ..name = "Nguyen Van A"
+          ..age = 10;
 }
+
+class Person {
+  String name;
+  int age;
+}
+
+
