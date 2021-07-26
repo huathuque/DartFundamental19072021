@@ -4,7 +4,6 @@ void main() {
   // double b = 1.2;
   //
   // String c = "Nguyen Van Teo";
-  //
   // String d = 'Nguyen Van Ty';
   //
   // bool isChecked = false;
@@ -17,15 +16,18 @@ void main() {
   //
   // print(String.fromCharCodes(runes));
 
-  // var dynamic
+  // Khai báo biến:
 
+  // var & dynamic
+  //
   // var number = 10;
   // var name = 'Teo';
   //
+  // // Dynamic linh hoạt về kiểu dữ liệu hơn var
   // dynamic something = 'abc';
   //
   // something = 10;
-
+  //
   // print(name.runtimeType);
   // print(number.runtimeType);
   // print(something);
@@ -34,16 +36,47 @@ void main() {
   //
   // print(a);
 
-  String a = "a";
-  String b = "b";
-  String c = "c";
+  // String a = "a";
+  // String b = "b";
+  // String c = "c";
+  //
+  // StringBuffer buffer = StringBuffer();
+  // buffer.write(a);
+  // buffer.write("def");
+  // buffer.write(b);
+  // buffer.write("mnk");
+  // buffer.write(c);
+  //
+  // print(buffer.toString());
 
-  StringBuffer buffer = StringBuffer();
-  buffer.write(a);
-  buffer.write("def");
-  buffer.write(b);
-  buffer.write("mnk");
-  buffer.write(c);
+  // Buổi 2:
+  // String name = "Nguyen Van A";
+  // int age = 10;
+  //
+  // String result = " Name : $name , age : ${age + 10}";
+  //
+  // print(result);
 
-  print(buffer.toString());
+  // Multiple line:
+  // String query =
+  //     "SELECT * FROM "
+  //     "user WHERE "
+  //     "id = 1";
+  // print(query);
+
+  // Phân biệt Const & Final:
+  // final chấp nhận biến ở quá trình runtime
+  // String name = "Nguyen Van Teo";
+  //
+  // final name1 = name;
+  //
+  // print(name1);
+
+  // const chỉ chấp nhận biến sau quá trình compile
+  // const PI = 3.14;
+  //
+  // PI = 3.142;
+  // print(PI);
+
+
 }
