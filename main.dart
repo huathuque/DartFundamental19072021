@@ -97,14 +97,45 @@ void main() {
   //   print("a có kiểu dữ liệu là integer");
   // }
 
-  var person1 = Person()
-          ..name = "Nguyen Van A"
-          ..age = 10;
-}
+  // Cascade:
+  // var person1 = Person()
+  //         ..name = "Nguyen Van A"
+  //         ..age = 10;
 
-class Person {
-  String name;
-  int age;
+  // Câu điều kiện:
+  // var text = "";
+  //
+  // if (text.isEmpty) {
+  //   print("chuỗi rỗng");
+  // } else {
+  //   print("có giá trị");
+  // }
+  // isEmpty không thể nhận giá trị là null, chỉ nhận khi có giá trị/rỗng
+
+  // If khác Switch
+  // If chỉ nên dùng khi biến là Bool, còn Switch là giá trị/số
+
+  // var month = 4;
+  //
+  // switch(month){
+  //   case 4 : print("Tháng 4");
+  //   break;
+  // }
+
+  // Dùng để check null,.. ít dùng
+  // var a ;
+  //
+  // assert( a != null, "a là null");
+
+  // printMessage("Thông báo!!");
+  // var result = tinhTong(10,5);
+  // printMessage(result.toString());
 }
+// void printMessage(String message){
+//   print(message);
+// }
+//
+// int tinhTong(int a , int b) => a + b;
+
 
 
