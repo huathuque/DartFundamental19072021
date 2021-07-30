@@ -1,5 +1,7 @@
 import 'Inheritance_tinh_ke_thua/animal.dart';
 import 'Inheritance_tinh_ke_thua/cat.dart';
+import 'Polymophirsm_tinh_da_hinh/TPbank.dart';
+import 'Polymophirsm_tinh_da_hinh/acb.dart';
 
 void main() {
 
@@ -16,6 +18,14 @@ void main() {
   // ctrl + p vào trong ngoặt tròn để nhắc vị trí của thuộc tính
   var cat = animal("Cat",2,0.5);
   print(cat);
+
+  // dữ liệu của class bank
+  var ACB = acb();
+
+  var TP = TPbank();
+
+  ACB.printNameBank();
+  TP.printNameBank();
 
   // Positional Option Parameter:
   //
@@ -49,6 +59,5 @@ void main() {
 //     print(country2);
 //   }
 // }
-//dljghwdh
 
 
